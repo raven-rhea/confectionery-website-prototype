@@ -29,12 +29,11 @@ body {
   display: none;
 }
 
-img {
+.img-flex {
   width: 100%;
   display: block;
 }
 
-.img-flex {
   max-height: 300px;
   width: 100%;
   display: block;
@@ -53,23 +52,28 @@ h1 {
   padding: 0;
 
 }
-
 h1 {
   color: #fff;
   width: 60%;
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 20%;
   justify-content: center;
   text-align: center;
+  font-family: 'Berkshire Swash';
+  font-size: 200%;
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
+  text-align: center;
+  margin-top: 0;
   font-size: 110%;
   color: #fff;
   width: 60%;
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 20%;
 }
 
@@ -81,15 +85,15 @@ ul {
 }
 
 ul li {
-  background-color: #B06B9C;
+  background-color: #b06b9c;
   text-align: center;
   padding: .5em;
   border-bottom: 3px solid;
-  border-color: #FFF0F5;
+  border-color: #fff0f5;
 }
 
 ul li:hover {
-  background-color: #DDA0DD;
+  background-color: #dda0dd;
 }
 
 a {
@@ -99,20 +103,17 @@ a {
 }
 
 .link-card {
-  margin-right: .5rem;
-  margin-left: .5rem;
-  margin-top: 1rem;
-  margin-bottom: .5rem;
-  background-color: #D8BFD8;
+  margin-top: .5rem;
+  background-color: #d8bfd8;
   padding: .4em .75em 4em;
   border: 3px solid;
-  border-color: #4B0082;
-  width: 46%;
+  border-color: #4b0082;
+  width: 50%;
   position: relative;
 }
 
 .link-card:hover {
-  background-color: #DDA0DD;
+  background-color: #dda0dd;
 }
 
 .locations {
@@ -123,7 +124,7 @@ a {
 
 .btn {
   width: 60%;
-  background-color: #4B0082;
+  background-color: #4b0082;
   color: #fff;
   display: inline-block;
   text-align: center;
@@ -141,11 +142,6 @@ div p {
   margin: .3rem;
 }
 
-h2 {
-  text-align: center;
-  margin-top: 0;
-}
-
 footer {
   text-align: center;
 }
@@ -153,7 +149,7 @@ footer {
 @media only screen and (min-width: 38em) {
 
   html {
-    line-height: 1.5;
+    line-height: 1.2;
     font-size: 110%;
   }
 
@@ -167,10 +163,12 @@ footer {
   }
 
   li {
+    border: 3px solid;
+    border-color: #b06b9c;
     width: 50%;
   }
 
-  .img-flex {
+  .banner {
     max-height: 300px;
     width: 100%;
     display: block;
@@ -181,25 +179,27 @@ footer {
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    font-size: 120%;
+  }
+
   .link-cardb {
+    margin-top: .5rem;
     display: inline-block;
-    margin-right: .5rem;
-    margin-top: 1rem;
-    margin-bottom: .5rem;
-    background-color: #D8BFD8;
+    background-color: #d8bfd8;
     padding: .4em .75em 4em;
     border: 3px solid;
-    border-color: #4B0082;
-    width: 31.33%;
+    border-color: #4b0082;
+    width: 33.33%;
     position: relative;
   }
 
   .link-card {
-    width: 31.33%;
+    width: 33.33%;
   }
 
   .link-cardb:hover {
-    background-color: #DDA0DD;
+    background-color: #dda0dd;
   }
 
   .banner {
@@ -230,18 +230,25 @@ footer {
     flex-wrap: wrap;
   }
 
-.candy {
-  width: 50%;
+  .candy {
+    width: 50%;
+  }
+
+  div h3 {
+    font-family: 'Berkshire Swash';
+    text-align: center;
+  }
+
+  .content {
+    width: 50%;
+  }
+
 }
 
-div h3 {
-  font-family: 'Berkshire Swash';
-  text-align: center;
-}
+@media only screen and (min-width: 90em) {
 
-.content {
-  width: 50%;
-}
-
+  html {
+    font-size: 130%;
+  }
 
 }
