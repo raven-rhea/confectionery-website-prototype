@@ -71,6 +71,11 @@ h2 {
   left: 20%;
 }
 
+div h3 {
+  font-family: "Berkshire Swash";
+  text-align: center;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -78,15 +83,15 @@ ul {
   padding: 0;
 }
 
-ul li {
-  background-color: #b06b9c;
+nav ul li {
+  background-color: #d8bfd8;
   text-align: center;
   padding: .5em;
   border-bottom: 3px solid;
   border-color: #fff0f5;
 }
 
-ul li:hover {
+nav ul li:hover {
   background-color: #dda0dd;
 }
 
@@ -101,7 +106,7 @@ a {
   background-color: #d8bfd8;
   padding: .4em .75em 4em;
   border: 3px solid;
-  border-color: #4b0082;
+  border-color: #fff0f5;
   width: 50%;
   position: relative;
 }
@@ -184,7 +189,7 @@ footer {
     background-color: #d8bfd8;
     padding: .4em .75em 4em;
     border: 3px solid;
-    border-color: #4b0082;
+    border-color: #fff0f5;
     width: 33.33%;
     position: relative;
   }
@@ -209,13 +214,14 @@ footer {
   h1 {
     position: absolute;
     left: 5%;
-    top: 30%;
+    top: 40%;
     text-align: left;
   }
 
   h2 {
     position: absolute;
     left: 75%;
+    top: 55%;
     text-align: left;
     max-width: 25%;
   }
@@ -229,13 +235,12 @@ footer {
     width: 50%;
   }
 
-  div h3 {
-    font-family: "Berkshire Swash";
-    text-align: center;
-  }
-
   .content {
-    width: 50%;
+    width: 41%;
+    margin: 3rem;
+    text-align: center;
+    padding: .4em .7em .5em;
+    background-color: #d8bfd8;
   }
 
 }
