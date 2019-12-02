@@ -50,17 +50,19 @@ h1 {
   color: #fff;
   width: 60%;
   position: absolute;
-  top: 10%;
+  top: 5%;
   left: 20%;
   justify-content: center;
   text-align: center;
   font-family: "Berkshire Swash";
-  font-size: 200%;
+  font-size: 300%;
   margin: 0;
   padding: 0;
 }
 
 h2 {
+  font-size: 500%;
+  padding: 0;
   text-align: center;
   margin-top: 0;
   font-size: 110%;
@@ -71,27 +73,41 @@ h2 {
   left: 20%;
 }
 
-div h3 {
+.link-card h2 {
+  font-size: 130%;
   font-family: "Berkshire Swash";
   text-align: center;
+  position: static;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   margin-top: 1rem;
+  margin-bottom: .5rem;
   padding: 0;
 }
 
 nav ul li {
+  font-size: 130%;
   background-color: #d8bfd8;
   text-align: center;
-  padding: .5em;
   border-bottom: 3px solid;
   border-color: #fff0f5;
 }
 
-nav ul li:hover {
+ul li a {
+  display: block;
+  font-size: 130%;
+  background-color: #d8bfd8;
+  text-align: center;
+  padding: .75em;
+}
+
+ul li a:hover {
   background-color: #dda0dd;
 }
 
@@ -133,7 +149,7 @@ a {
   border-radius: 8px;
   padding: .2em .5em;
   position: absolute;
-  bottom: 7px;
+  bottom: 10px;
   left: 20%;
 }
 
@@ -194,6 +210,15 @@ footer {
     position: relative;
   }
 
+  .link-cardb h2 {
+    font-size: 130%;
+    font-family: "Berkshire Swash";
+    text-align: center;
+    position: static;
+    margin: 0;
+    padding: 0;
+  }
+
   .link-card {
     width: 33.33%;
   }
@@ -221,7 +246,7 @@ footer {
   h2 {
     position: absolute;
     left: 75%;
-    top: 55%;
+    top: 43%;
     text-align: left;
     max-width: 25%;
   }
@@ -236,11 +261,16 @@ footer {
   }
 
   .content {
-    width: 41%;
-    margin: 3rem;
+    width: 50%;
+    margin: 0;
     text-align: center;
     padding: .4em .7em .5em;
-    background-color: #d8bfd8;
+    border: 12px solid;
+    border-color: #d8bfd8;
+  }
+
+  .content h3 {
+    font-size: 200%;
   }
 
 }
