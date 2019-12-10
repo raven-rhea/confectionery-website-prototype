@@ -48,29 +48,30 @@ header {
 
 h1 {
   color: #fff;
-  width: 60%;
+  width: 50%;
   position: absolute;
   top: 5%;
-  left: 20%;
+  left: 25%;
   justify-content: center;
   text-align: center;
   font-family: "Berkshire Swash";
   font-size: 300%;
   margin: 0;
   padding: 0;
+  opacity: .9;
 }
 
 h2 {
-  font-size: 500%;
   padding: 0;
   text-align: center;
-  margin-top: 0;
-  font-size: 110%;
+  margin-top: .5rem;
+  font-size: 120%;
   color: #fff;
   width: 60%;
   position: absolute;
-  top: 30%;
+  top: 27%;
   left: 20%;
+  opacity: .9;
 }
 
 .link-card h2 {
@@ -92,7 +93,7 @@ ul {
 }
 
 nav ul li {
-  font-size: 130%;
+  font-size: 100%;
   background-color: #d8bfd8;
   text-align: center;
   border-bottom: 3px solid;
@@ -138,6 +139,7 @@ a {
 }
 
 .btn {
+  margin-top: 1rem;
   width: 60%;
   background-color: #4b0082;
   color: #fff;
@@ -161,6 +163,46 @@ footer {
   text-align: center;
 }
 
+dl {
+  background-color: #fff0f5;
+}
+
+dd {
+  margin-bottom: 2rem;
+}
+
+dt {
+  margin-left: 2rem;
+}
+
+.testimonial {
+  position: relative;
+}
+
+.testimonial h2 {
+  font-size: 350%;
+  opacity: .3;
+  color: rgb(186,85,211);
+  font-family: 'Oleo Script', cursive;
+  position: absolute;
+  top: 5px;
+}
+
+dl dt:first-child {
+  padding-top: 2rem;
+}
+
+footer a {
+  color: #000;
+  padding-left: 1em;
+}
+
+footer a:hover {
+  color: #dda0dd;
+}
+
+
+
 @media only screen and (min-width: 38em) {
 
   html {
@@ -169,7 +211,13 @@ footer {
   }
 
   h1 {
-    font-size: 260%;
+    font-size: 300%;
+    top: 10%;
+    left: 25%;
+  }
+
+  h2 {
+    top: 40%;
   }
 
   nav ul {
@@ -199,6 +247,15 @@ footer {
     font-size: 120%;
   }
 
+  h2 {
+    position: absolute;
+    left: 75%;
+    top: 40%;
+    text-align: left;
+    max-width: 25%;
+
+  }
+
   .link-cardb {
     margin-top: .5rem;
     display: inline-block;
@@ -217,6 +274,12 @@ footer {
     position: static;
     margin: 0;
     padding: 0;
+    max-width: 100%;
+  }
+
+  .link-card h2 {
+    max-width: 100%;
+    font-size: 130%;
   }
 
   .link-card {
@@ -238,17 +301,9 @@ footer {
 
   h1 {
     position: absolute;
-    left: 5%;
-    top: 40%;
+    left: 1%;
+    top: 35%;
     text-align: left;
-  }
-
-  h2 {
-    position: absolute;
-    left: 75%;
-    top: 43%;
-    text-align: left;
-    max-width: 25%;
   }
 
   .extra-content {
@@ -256,8 +311,15 @@ footer {
     flex-wrap: wrap;
   }
 
-  .candy {
+  img {
+    width: 100%;
+    display: block;
+  }
+
+  .img-bowl {
     width: 50%;
+    overflow: hidden;
+    max-height: 800px;
   }
 
   .content {
@@ -271,6 +333,8 @@ footer {
 
   .content h3 {
     font-size: 200%;
+    margin: 0;
+    padding: 0;
   }
 
 }
