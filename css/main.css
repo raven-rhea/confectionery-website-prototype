@@ -49,28 +49,28 @@ header {
 h1 {
   color: #fff;
   width: 50%;
-  position: absolute;
-  top: 5%;
-  left: 25%;
   justify-content: center;
   text-align: center;
   font-family: "Berkshire Swash";
   font-size: 300%;
   margin: 0;
   padding: 0;
+  position: absolute;
+  top: 5%;
+  left: 25%;
   opacity: .9;
 }
 
 h2 {
-  padding: 0;
-  text-align: center;
-  margin-top: .5rem;
-  font-size: 120%;
-  color: #fff;
-  width: 60%;
   position: absolute;
   top: 27%;
   left: 20%;
+  padding: 0;
+  text-align: center;
+  margin-top: .5rem;
+  font-size: 150%;
+  color: #fff;
+  width: 60%;
   opacity: .9;
 }
 
@@ -165,6 +165,8 @@ footer {
 
 dl {
   background-color: #fff0f5;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
 }
 
 dd {
@@ -173,6 +175,7 @@ dd {
 
 dt {
   margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .testimonial {
@@ -180,16 +183,18 @@ dt {
 }
 
 .testimonial h2 {
-  font-size: 350%;
+  font-size: 320%;
   opacity: .3;
-  color: rgb(186,85,211);
-  font-family: 'Oleo Script', cursive;
+  color: rgb(186, 85, 211);
+  font-family: "Oleo Script", cursive;
   position: absolute;
-  top: 5px;
+  top: 1px;
+  left:2px;
+  margin: 0;
 }
 
-dl dt:first-child {
-  padding-top: 2rem;
+dd {
+  font-style: italic;
 }
 
 footer a {
@@ -201,8 +206,6 @@ footer a:hover {
   color: #dda0dd;
 }
 
-
-
 @media only screen and (min-width: 38em) {
 
   html {
@@ -211,13 +214,15 @@ footer a:hover {
   }
 
   h1 {
+    width: 90%;
     font-size: 300%;
-    top: 10%;
-    left: 25%;
+    top: 15%;
+    left: 5%;
   }
 
   h2 {
-    top: 40%;
+    top: 30%;
+    font-size: 130%
   }
 
   nav ul {
@@ -253,7 +258,6 @@ footer a:hover {
     top: 40%;
     text-align: left;
     max-width: 25%;
-
   }
 
   .link-cardb {
@@ -336,7 +340,6 @@ footer a:hover {
     margin: 0;
     padding: 0;
   }
-
 }
 
 @media only screen and (min-width: 90em) {
